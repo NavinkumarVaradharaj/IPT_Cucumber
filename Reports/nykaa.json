@@ -1,0 +1,318 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-17T04:10:53.594Z",
+        "line": 6,
+        "name": "User login into the website",
+        "description": "",
+        "id": "testing-the-product-purchasing-in-nykaa;user-login-into-the-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3092781700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User launch the application",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 508048500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click the signIn option",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_click_the_sign_in_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3219991000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter \"9345845131\" as mobile number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9345845131\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_enter_as_mobile_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83130600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click the proceed button",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_click_the_proceed_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60122700600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter the otp and verify",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_enter_the_otp_and_verify()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11047800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User navigate to User Home Page",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_navigate_to_user_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-17T04:12:00.771Z",
+        "line": 14,
+        "name": "User search for baby powder",
+        "description": "",
+        "id": "testing-the-product-purchasing-in-nykaa;user-search-for-baby-powder",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5425406900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user able to view baby powder",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_able_to_view_baby_powder()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94409300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user able to view list of baby powder",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_able_to_view_list_of_baby_powder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-17T04:12:06.301Z",
+        "line": 18,
+        "name": "User select the himalaya baby powder",
+        "description": "",
+        "id": "testing-the-product-purchasing-in-nykaa;user-select-the-himalaya-baby-powder",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1023426500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user able to select the himalaya powder",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_able_to_select_the_himalaya_powder()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 921279300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user able to change the size using dropdown",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_able_to_change_the_size_using_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99572700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user able to add the product into bag",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_able_to_add_the_product_into_bag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110105700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user able to open the bag",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_able_to_open_the_bag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027css-1gnoynr e1whhlt6\u0027]//img\"}\n  (Session info: chrome\u003d115.0.5790.171)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027NAVIN\u0027, ip: \u0027192.168.0.101\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51708}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: c77dd7dc8d4003be9c9ff7e58ca6a03c\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027css-1gnoynr e1whhlt6\u0027]//img}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat com.NykaaCucumber_IPT.base.BaseClass.clickOnElement(BaseClass.java:69)\r\n\tat com.NykaaCucumber_IPT.stepDef.StepDefinition.user_able_to_change_the_required_quantity(StepDefinition.java:83)\r\n\tat ✽.user able to change the required quantity(file:///D:/Avadi/workspace1/NykaaCucumber_IPT/./src/test/resources/com/feature/Nykaa.feature:23)\r\n",
+              "duration": 366616600,
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "user able to change the required quantity",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_able_to_change_the_required_quantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1659600,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user able to proceed with the required quantity",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_able_to_proceed_with_the_required_quantity()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-17T04:12:08.870Z",
+        "line": 26,
+        "name": "User Pay using the Credit card",
+        "description": "",
+        "id": "testing-the-product-purchasing-in-nykaa;user-pay-using-the-credit-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder\u003d\u0027Card Number\u0027]\"}\n  (Session info: chrome\u003d115.0.5790.171)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027NAVIN\u0027, ip: \u0027192.168.0.101\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51708}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: c77dd7dc8d4003be9c9ff7e58ca6a03c\n*** Element info: {Using\u003dxpath, value\u003d//input[@placeholder\u003d\u0027Card Number\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat com.NykaaCucumber_IPT.base.BaseClass.clickOnElement(BaseClass.java:69)\r\n\tat com.NykaaCucumber_IPT.stepDef.StepDefinition.user_able_to_enter_credit_card_number(StepDefinition.java:96)\r\n\tat ✽.user able to enter credit card number(file:///D:/Avadi/workspace1/NykaaCucumber_IPT/./src/test/resources/com/feature/Nykaa.feature:27)\r\n",
+              "duration": 21878800,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "user able to enter credit card number",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_able_to_enter_credit_card_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user able to enter expiry date",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_able_to_enter_expiry_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user able to enter cvv number",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_able_to_enter_cvv_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user able to pay using credit card",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_able_to_pay_using_credit_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user take the screenshot if payment failed",
+            "match": {
+              "location": "com.NykaaCucumber_IPT.stepDef.StepDefinition.user_take_the_screenshot_if_payment_failed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Testing the Product purchasing in Nykaa",
+    "description": "  I want to use this template for my feature file",
+    "id": "testing-the-product-purchasing-in-nykaa",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/feature/Nykaa.feature",
+    "tags": [
+      {
+        "name": "@RegressionTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

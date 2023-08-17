@@ -66,7 +66,9 @@ public abstract class BaseClass {
 	}
 
 	public static void clickOnElement(WebElement element) {
-		element.click();
+		(new WebDriverWait(driver, 30))
+        .until(ExpectedConditions.elementToBeClickable(element)).click();
+		
 	}
 
 	public static void screenshot() {

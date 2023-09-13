@@ -18,7 +18,7 @@ public class ProductPageImpl extends BaseClass implements ProductPage {
 	private WebElement size_dropdown;
 	
 	@FindBy(xpath = addtobag_xpath)
-	private WebElement addToBag_btn;
+	private WebElement addToBag_button;
 
 	public WebElement getHimalaya_babypowder() {
 		return himalaya_babypowder;
@@ -29,7 +29,7 @@ public class ProductPageImpl extends BaseClass implements ProductPage {
 	}
 
 	public WebElement getAddToBag_btn() {
-		return addToBag_btn;
+		return addToBag_button;
 	}
 	
 	
